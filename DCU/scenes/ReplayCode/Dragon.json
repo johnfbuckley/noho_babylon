@@ -1,0 +1,202 @@
+{
+    "cameras": [
+        {
+            "rotation": [
+                0.3757223508370379,
+                -0.5714047170487924,
+                0
+            ],
+            "position": [
+                -2.159837579783994,
+                1.5164808678412747,
+                5.009339578748638
+            ],
+            "__state": {
+                "id": "camera1"
+            }
+        }
+    ],
+    "materials": [
+        {
+            "metallic": 0.19,
+            "roughness": 0.42,
+            "metallicF0Factor": 0.33,
+            "albedo": [
+                0.000023328004666098932,
+                0.027755279978126032,
+                0.011881334434813665
+            ],
+            "microSurface": 0,
+            "alpha": 0,
+            "plugins": {
+                "PBRSubSurfaceConfiguration": {
+                    "refractionIntensity": 0.53,
+                    "translucencyIntensity": 0.43,
+                    "indexOfRefraction": 1.37,
+                    "_volumeIndexOfRefraction": 1.37,
+                    "minimumThickness": 0.9,
+                    "maximumThickness": 3.4,
+                    "tintColor": [
+                        0.0016869153167892836,
+                        0.8433697303921693,
+                        0.9489649381781952
+                    ],
+                    "tintColorAtDistance": 1.8
+                }
+            },
+            "__state": {
+                "id": "DragonGlass"
+            }
+        },
+        {
+            "tags": null,
+            "ambient": [
+                0,
+                0,
+                0
+            ],
+            "diffuse": [
+                1,
+                1,
+                1
+            ],
+            "specular": [
+                1,
+                1,
+                1
+            ],
+            "emissive": [
+                0,
+                0,
+                0
+            ],
+            "specularPower": 64,
+            "useAlphaFromDiffuseTexture": false,
+            "useEmissiveAsIllumination": false,
+            "linkEmissiveWithDiffuse": false,
+            "useSpecularOverAlpha": false,
+            "useReflectionOverAlpha": false,
+            "disableLighting": false,
+            "useObjectSpaceNormalMap": false,
+            "useParallax": false,
+            "useParallaxOcclusion": false,
+            "parallaxScaleBias": 0.05,
+            "roughness": 0,
+            "indexOfRefraction": 0.98,
+            "invertRefractionY": true,
+            "alphaCutOff": 0.4,
+            "useLightmapAsShadowmap": false,
+            "useReflectionFresnelFromSpecular": false,
+            "useGlossinessFromSpecularMapAlpha": false,
+            "maxSimultaneousLights": 4,
+            "invertNormalMapX": false,
+            "invertNormalMapY": false,
+            "twoSidedLighting": false,
+            "applyDecalMapAfterDetailMap": false,
+            "id": "default material",
+            "uniqueId": 91,
+            "name": "default material",
+            "checkReadyOnEveryCall": false,
+            "checkReadyOnlyOnce": false,
+            "state": "",
+            "alpha": 1,
+            "backFaceCulling": true,
+            "cullBackFaces": true,
+            "sideOrientation": 1,
+            "alphaMode": 2,
+            "_needDepthPrePass": false,
+            "disableDepthWrite": false,
+            "disableColorWrite": false,
+            "forceDepthWrite": false,
+            "depthFunction": 0,
+            "separateCullingPass": false,
+            "fogEnabled": true,
+            "pointSize": 1,
+            "zOffset": 0,
+            "zOffsetUnits": 0,
+            "pointsCloud": false,
+            "fillMode": 0,
+            "stencil": {
+                "tags": null,
+                "func": 519,
+                "funcRef": 1,
+                "funcMask": 255,
+                "opStencilFail": 7680,
+                "opDepthFail": 7680,
+                "opStencilDepthPass": 7681,
+                "mask": 255,
+                "enabled": false
+            },
+            "plugins": {
+                "DetailMapConfiguration": {
+                    "tags": null,
+                    "diffuseBlendLevel": 1,
+                    "roughnessBlendLevel": 1,
+                    "bumpLevel": 1,
+                    "normalBlendMethod": 0,
+                    "isEnabled": false,
+                    "name": "DetailMap",
+                    "priority": 140,
+                    "resolveIncludes": false,
+                    "registerForExtraEvents": false
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "rotationQuaternion": [
+                0,
+                0.004642418676307089,
+                0,
+                0.9999892170120419
+            ],
+            "__state": {
+                "id": "Circle 01"
+            }
+        },
+        {
+            "rotationQuaternion": [
+                0,
+                -0.9364763029279839,
+                0,
+                0.3507308779185177
+            ],
+            "__state": {
+                "id": "Circle 02"
+            }
+        },
+        {
+            "rotationQuaternion": [
+                0,
+                0.7941721017682323,
+                0,
+                0.6076928905317015
+            ],
+            "__state": {
+                "id": "Circle 05"
+            }
+        },
+        {
+            "position": [
+                0,
+                0.1623559594154358,
+                1.5258788721439487e-7
+            ],
+            "rotationQuaternion": [
+                0,
+                0.5000003135204409,
+                0,
+                0.8660252690315247
+            ],
+            "scaling": [
+                1,
+                0.9999999117851447,
+                1
+            ],
+            "__state": {
+                "id": "Circle 06"
+            }
+        }
+    ]
+}

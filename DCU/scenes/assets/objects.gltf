@@ -1,0 +1,1120 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20230922.2"
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_draco_mesh_compression"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        9
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0116030024,
+        0.009203338,
+        1.207954
+      ],
+      "scale": [
+        1,
+        0.8614341,
+        1
+      ],
+      "name": "CurveObject",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        2.66426969,
+        2.078799,
+        1.31073546
+      ],
+      "scale": [
+        0.7159862,
+        0.7159862,
+        0.7159862
+      ],
+      "name": "LiquidObject",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mesh": 2,
+      "translation": [
+        0.03282188,
+        0.4348062,
+        1.242915
+      ],
+      "rotation": [
+        0,
+        -0.3007061,
+        0,
+        0.9537169
+      ],
+      "scale": [
+        0.627111733,
+        0.627111733,
+        0.627111733
+      ],
+      "name": "Circle 01"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -1.52587887e-7,
+        0.2305426,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        -0.965925932,
+        0,
+        -0.2588187
+      ],
+      "scale": [
+        0.99999994,
+        1,
+        0.99999994
+      ],
+      "name": "Circle 02"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        -1.52587887e-7,
+        0.4030423,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        0.300706029,
+        0,
+        0.953716934
+      ],
+      "name": "Circle 03",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        -1.52587887e-7,
+        0.569376767,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        -0.1736479,
+        0,
+        0.984807849
+      ],
+      "scale": [
+        0.9999999,
+        1,
+        0.9999999
+      ],
+      "name": "Circle 04"
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        -1.52587887e-7,
+        0.2305426,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        0.300706029,
+        0,
+        0.953716934
+      ],
+      "name": "Circle 05",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 7,
+      "translation": [
+        -1.52587887e-7,
+        0.162355959,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        0.5000003,
+        0,
+        0.866025269
+      ],
+      "name": "Circle 06",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 8,
+      "translation": [
+        -1.52587887e-7,
+        0.2305426,
+        1.52587887e-7
+      ],
+      "rotation": [
+        0,
+        0.843391657,
+        0,
+        0.5372993
+      ],
+      "scale": [
+        1.00000012,
+        1,
+        1.00000012
+      ],
+      "name": "Circle 07"
+    },
+    {
+      "translation": [
+        2.42485547,
+        3.73229241,
+        -0.606719732
+      ],
+      "rotation": [
+        0.172893614,
+        -0.8240603,
+        -0.340470821,
+        -0.418463975
+      ],
+      "name": "Spotlight",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "TANGENT": 14,
+            "NORMAL": 15,
+            "TEXCOORD_0": 16,
+            "TEXCOORD_1": 17
+          },
+          "indices": 12,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "TANGENT": 1,
+                "NORMAL": 2,
+                "TEXCOORD_0": 3,
+                "TEXCOORD_1": 4
+              }
+            }
+          }
+        }
+      ],
+      "name": "CurveObject"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "TANGENT": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22,
+            "TEXCOORD_1": 23
+          },
+          "indices": 18,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "TANGENT": 1,
+                "NORMAL": 2,
+                "TEXCOORD_0": 3,
+                "TEXCOORD_1": 4
+              }
+            }
+          }
+        }
+      ],
+      "name": "LiquidObject"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26
+          },
+          "indices": 24,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 01"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 28,
+            "NORMAL": 29
+          },
+          "indices": 27,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 02"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 31,
+            "NORMAL": 32
+          },
+          "indices": 30,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 03"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 34,
+            "NORMAL": 35
+          },
+          "indices": 33,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 8,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 04"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 37,
+            "NORMAL": 38
+          },
+          "indices": 36,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 9,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 05"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41
+          },
+          "indices": 39,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 10,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 06"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 43,
+            "NORMAL": 44
+          },
+          "indices": 42,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 11,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1
+              }
+            }
+          }
+        }
+      ],
+      "name": "Circle 07"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 201,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 804,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3216,
+      "componentType": 5126,
+      "count": 201,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1608,
+      "componentType": 5126,
+      "count": 157,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6432,
+      "componentType": 5126,
+      "count": 157,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2236,
+      "componentType": 5126,
+      "count": 162,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 162,
+      "type": "VEC3",
+      "name": "accessorAnimationPositions",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2884,
+      "componentType": 5126,
+      "count": 85,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8944,
+      "componentType": 5126,
+      "count": 85,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3224,
+      "componentType": 5126,
+      "count": 88,
+      "max": [
+        8
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1944,
+      "componentType": 5126,
+      "count": 88,
+      "type": "VEC3",
+      "name": "accessorAnimationScales"
+    },
+    {
+      "componentType": 5123,
+      "count": 4908,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 4194,
+      "max": [
+        0.5011317831618934,
+        4.4550582553914,
+        1.014141381927724
+      ],
+      "min": [
+        -0.5909531853913996,
+        -0.03861633269139962,
+        -0.7805858993913996
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 4194,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "componentType": 5126,
+      "count": 4194,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 4194,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5126,
+      "count": 4194,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    },
+    {
+      "componentType": 5123,
+      "count": 36108,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 31422,
+      "max": [
+        0.9438562446719161,
+        0.9417732031758532,
+        0.8954645824934383
+      ],
+      "min": [
+        -0.826018653175853,
+        -1.425911333175853,
+        -0.751004603175853
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 31422,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "componentType": 5126,
+      "count": 31422,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 31422,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5126,
+      "count": 31422,
+      "type": "VEC2",
+      "name": "accessorUV2s"
+    },
+    {
+      "componentType": 5123,
+      "count": 5112,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 960,
+      "max": [
+        1.8280654889061831,
+        0.018188615601684676,
+        1.8280654889061831
+      ],
+      "min": [
+        -1.8280654889061834,
+        -0.018183026106183237,
+        -1.8280654889061834
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 960,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 5112,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 960,
+      "max": [
+        2.2966458351644996,
+        0.014056278885478847,
+        2.2966458351644996
+      ],
+      "min": [
+        -2.2966458351644996,
+        -0.013977237564499787,
+        -2.2966458351644996
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 960,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 3408,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        2.518846647631691,
+        0.01541622703744735,
+        2.518846647631691
+      ],
+      "min": [
+        -2.5188466476316913,
+        -0.015329536131691386,
+        -2.5188466476316913
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 640,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 3408,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 640,
+      "max": [
+        2.9037324378929377,
+        0.017771864500842335,
+        2.9037324378929377
+      ],
+      "min": [
+        -2.9037324378929377,
+        -0.017671924792937804,
+        -2.9037324378929377
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 640,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 4260,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 800,
+      "max": [
+        3.5911193423060492,
+        0.021978909398846364,
+        3.591257263176464
+      ],
+      "min": [
+        -3.591119342306049,
+        -0.021855321206048956,
+        -2.5380832023060487
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 800,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 2556,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 480,
+      "max": [
+        4.24755492871269,
+        0.02130645222788867,
+        3.0021930808313497
+      ],
+      "min": [
+        -4.24755492871269,
+        -0.021207982212689984,
+        -4.24755492871269
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 480,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5123,
+      "count": 10236,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1922,
+      "max": [
+        6.061075818563146,
+        0.021280861999249227,
+        6.061383338563147
+      ],
+      "min": [
+        -6.060851338563145,
+        -0.021628614663144724,
+        -6.060543818563144
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1922,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3576,
+      "name": "bufferViewAnimationFloatScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3576,
+      "byteLength": 10304,
+      "name": "bufferViewAnimationFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13880,
+      "byteLength": 3000,
+      "name": "bufferViewAnimationFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16880,
+      "byteLength": 78251
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 95136,
+      "byteLength": 561249
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 656392,
+      "byteLength": 2377
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 658776,
+      "byteLength": 2485
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 661264,
+      "byteLength": 1756
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 663024,
+      "byteLength": 1788
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 664816,
+      "byteLength": 2049
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 666872,
+      "byteLength": 1429
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 668304,
+      "byteLength": 4846
+    }
+  ],
+  "buffers": [
+    {
+      "name": "objects",
+      "byteLength": 673152,
+      "uri": "objects.bin"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      },
+      "doubleSided": true,
+      "name": "Curve_Object",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      },
+      "doubleSided": true,
+      "name": "Liquid_Object",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      },
+      "doubleSided": true,
+      "name": "glowing white",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 6,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 7,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 7,
+            "path": "scale"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 0,
+          "output": 1,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 2,
+          "output": 3,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 4,
+          "output": 5,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 6,
+          "output": 7,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 8,
+          "output": 9,
+          "interpolation": "LINEAR"
+        },
+        {
+          "input": 10,
+          "output": 11,
+          "interpolation": "LINEAR"
+        }
+      ],
+      "name": "All Animations"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            1,
+            0.99999994,
+            1.00000012
+          ],
+          "intensity": 1500,
+          "type": "point"
+        }
+      ]
+    }
+  },
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}

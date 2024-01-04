@@ -1,0 +1,206 @@
+{
+    "cameras": [
+        {
+            "rotation": [
+                -0.09802812149399637,
+                6.867015700115807,
+                0
+            ],
+            "position": [
+                -2.220397297242867,
+                1.7489309261819914,
+                -1.1447060431321778
+            ],
+            "__state": {
+                "id": "camera1"
+            }
+        }
+    ],
+    "materials": [
+        {
+            "albedo": [
+                0.03847274632019464,
+                0.3837746464879752,
+                0.5295232224172772
+            ],
+            "alpha": 1,
+            "plugins": {
+                "PBRIridescenceConfiguration": {
+                    "intensity": 1,
+                    "minimumThickness": 110,
+                    "maximumThickness": 320,
+                    "indexOfRefraction": 1.61
+                },
+                "PBRSubSurfaceConfiguration": {
+                    "refractionIntensity": 0.57,
+                    "translucencyIntensity": 0.53,
+                    "indexOfRefraction": 1.35,
+                    "_volumeIndexOfRefraction": 1.21,
+                    "linkRefractionWithTransparency": true,
+                    "minimumThickness": 1.5,
+                    "maximumThickness": 6.1,
+                    "tintColor": [
+                        0.7893137424155858,
+                        0.004116177093282753,
+                        0.004116177093282753
+                    ],
+                    "tintColorAtDistance": 3.5,
+                    "useGltfStyleTextures": false
+                }
+            },
+            "__state": {
+                "id": "Curve_Object"
+            }
+        },
+        {
+            "tags": null,
+            "ambient": [
+                0,
+                0,
+                0
+            ],
+            "diffuse": [
+                1,
+                1,
+                1
+            ],
+            "specular": [
+                1,
+                1,
+                1
+            ],
+            "emissive": [
+                0,
+                0,
+                0
+            ],
+            "specularPower": 64,
+            "useAlphaFromDiffuseTexture": false,
+            "useEmissiveAsIllumination": false,
+            "linkEmissiveWithDiffuse": false,
+            "useSpecularOverAlpha": false,
+            "useReflectionOverAlpha": false,
+            "disableLighting": false,
+            "useObjectSpaceNormalMap": false,
+            "useParallax": false,
+            "useParallaxOcclusion": false,
+            "parallaxScaleBias": 0.05,
+            "roughness": 0,
+            "indexOfRefraction": 0.98,
+            "invertRefractionY": true,
+            "alphaCutOff": 0.4,
+            "useLightmapAsShadowmap": false,
+            "useReflectionFresnelFromSpecular": false,
+            "useGlossinessFromSpecularMapAlpha": false,
+            "maxSimultaneousLights": 4,
+            "invertNormalMapX": false,
+            "invertNormalMapY": false,
+            "twoSidedLighting": false,
+            "applyDecalMapAfterDetailMap": false,
+            "id": "default material",
+            "uniqueId": 91,
+            "name": "default material",
+            "checkReadyOnEveryCall": false,
+            "checkReadyOnlyOnce": false,
+            "state": "",
+            "alpha": 1,
+            "backFaceCulling": true,
+            "cullBackFaces": true,
+            "sideOrientation": 1,
+            "alphaMode": 2,
+            "_needDepthPrePass": false,
+            "disableDepthWrite": false,
+            "disableColorWrite": false,
+            "forceDepthWrite": false,
+            "depthFunction": 0,
+            "separateCullingPass": false,
+            "fogEnabled": true,
+            "pointSize": 1,
+            "zOffset": 0,
+            "zOffsetUnits": 0,
+            "pointsCloud": false,
+            "fillMode": 0,
+            "stencil": {
+                "tags": null,
+                "func": 519,
+                "funcRef": 1,
+                "funcMask": 255,
+                "opStencilFail": 7680,
+                "opDepthFail": 7680,
+                "opStencilDepthPass": 7681,
+                "mask": 255,
+                "enabled": false
+            },
+            "plugins": {
+                "DetailMapConfiguration": {
+                    "tags": null,
+                    "diffuseBlendLevel": 1,
+                    "roughnessBlendLevel": 1,
+                    "bumpLevel": 1,
+                    "normalBlendMethod": 0,
+                    "isEnabled": false,
+                    "name": "DetailMap",
+                    "priority": 140,
+                    "resolveIncludes": false,
+                    "registerForExtraEvents": false
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "rotationQuaternion": [
+                0,
+                0.9936830059577957,
+                0,
+                0.11222357462498411
+            ],
+            "__state": {
+                "id": "Circle 01"
+            }
+        },
+        {
+            "rotationQuaternion": [
+                0,
+                0.9923038319190292,
+                0,
+                -0.1238269881300062
+            ],
+            "__state": {
+                "id": "Circle 02"
+            }
+        },
+        {
+            "rotationQuaternion": [
+                0,
+                -0.30070603743194924,
+                0,
+                -0.9537169337272644
+            ],
+            "__state": {
+                "id": "Circle 05"
+            }
+        },
+        {
+            "position": [
+                0,
+                0.1623559594154358,
+                1.0910037073581475e-7
+            ],
+            "rotationQuaternion": [
+                0,
+                0.5000002980232239,
+                0,
+                0.8660252690315247
+            ],
+            "scaling": [
+                1,
+                0.9999999147653335,
+                1
+            ],
+            "__state": {
+                "id": "Circle 06"
+            }
+        }
+    ]
+}

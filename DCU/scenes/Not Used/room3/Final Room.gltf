@@ -1,0 +1,476 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Final Room"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC3",
+      "max": [
+        5.3589162826538086,
+        5.7621655464172363,
+        4.0436573028564453
+      ],
+      "min": [
+        -5.3951244354248047,
+        -5.862647533416748,
+        -0.014739646576344967
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC2",
+      "max": [
+        4.6449704170227051,
+        6.0641093254089355
+      ],
+      "min": [
+        -3.6449708938598633,
+        -5.0641078948974609
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC2",
+      "max": [
+        0.9983220100402832,
+        0.99862784147262573
+      ],
+      "min": [
+        0.0016779899597167969,
+        0.0017285346984863281
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 22184,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 50007,
+      "type": "SCALAR",
+      "max": [
+        21975.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        21979.0
+      ],
+      "min": [
+        21976.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        21983.0
+      ],
+      "min": [
+        21980.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 468,
+      "type": "SCALAR",
+      "max": [
+        22183.0
+      ],
+      "min": [
+        21984.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Final Room.bin",
+      "byteLength": 1698224
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 266208,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 266208,
+      "byteLength": 266208,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 532416,
+      "byteLength": 354944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 887360,
+      "byteLength": 177472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1064832,
+      "byteLength": 177472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1242304,
+      "byteLength": 354944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1597248,
+      "byteLength": 100016,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1697264,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1697276,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1697288,
+      "byteLength": 936,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "Corner_2_noVertexPaint_Walls_AlbedoTransparency.jpg",
+      "name": "Corner_2_noVertexPaint_Walls_AlbedoTransparency"
+    },
+    {
+      "uri": "Corner_2_noVertexPaint_Walls_MetallicSmoothness.jpg",
+      "name": "Corner_2_noVertexPaint_Walls_MetallicSmoothness"
+    },
+    {
+      "uri": "Floor_AlbedoTransparency.jpg",
+      "name": "Floor_AlbedoTransparency"
+    },
+    {
+      "uri": "Floor_MetallicSmoothness.jpg",
+      "name": "Floor_MetallicSmoothness"
+    },
+    {
+      "uri": "Ceiling_AlbedoTransparency.jpg",
+      "name": "Ceiling_AlbedoTransparency"
+    },
+    {
+      "uri": "Ceiling_MetallicSmoothness.jpg",
+      "name": "Ceiling_MetallicSmoothness"
+    },
+    {
+      "uri": "Fireplace_AlbedoTransparency.jpg",
+      "name": "Fireplace_AlbedoTransparency"
+    },
+    {
+      "uri": "Fireplace_MetallicSmoothness.jpg",
+      "name": "Fireplace_MetallicSmoothness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.905749261,
+          0.905749261,
+          0.905749261,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.527999997138977,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Walls"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.905749261,
+          0.905749261,
+          0.905749261,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.10899999737739563,
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Floor"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Ceiling"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 7,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Fireplace"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 6,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 7,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 8,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 9,
+          "material": 3
+        }
+      ],
+      "name": "Final Room"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        0.0603527837,
+        2.018907,
+        0.123768307
+      ],
+      "name": "Final Room"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Corner_2_noVertexPaint_Walls_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Corner_2_noVertexPaint_Walls_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Floor_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "Floor_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "Ceiling_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "Ceiling_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "Fireplace_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "Fireplace_MetallicSmoothness"
+    }
+  ]
+}

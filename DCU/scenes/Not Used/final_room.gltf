@@ -1,0 +1,823 @@
+{
+	"accessors": [
+		{
+			"componentType": 5123,
+			"count": 50007,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"max": [
+				5.35948093299762,
+				4.044079642856143,
+				5.863350721145089
+			],
+			"min": [
+				-5.39582763114509,
+				-0.015442837745089422,
+				-5.65843619114509
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"name": "accessorTangents",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"name": "accessorColors",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5126,
+			"count": 22266,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5123,
+			"count": 468,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"max": [
+				0.8669569562717451,
+				1.172053556994195,
+				5.402957463440761
+			],
+			"min": [
+				-0.941230556271745,
+				-0.006441068971745102,
+				4.890573293728255
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"name": "accessorTangents",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"name": "accessorColors",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5126,
+			"count": 244,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5123,
+			"count": 6,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"max": [
+				4.1220490347158645,
+				-0.004843342816758225,
+				5.366729253833243
+			],
+			"min": [
+				-4.168923253833241,
+				-0.006201850483241776,
+				-5.762844803833241
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorTangents",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorColors",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5123,
+			"count": 6,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"max": [
+				5.044772566448147,
+				4.041259683650736,
+				5.612380893650736
+			],
+			"min": [
+				-5.0912933736507355,
+				4.039878936349265,
+				-5.699391373650736
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorTangents",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorColors",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5126,
+			"count": 4,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5123,
+			"count": 1080,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"max": [
+				4.834306595773668,
+				3.774981106795459,
+				4.227331341045597
+			],
+			"min": [
+				-4.875375155773668,
+				1.3257827742263322,
+				-4.5940493457736675
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"name": "accessorTangents",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"name": "accessorColors",
+			"type": "VEC4"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"componentType": 5126,
+			"count": 624,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		}
+	],
+	"asset": {
+		"generator": "babylon.js glTF exporter for 3dsmax 2024 v20230922.2",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 421436,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5202,
+			"byteOffset": 421436
+		},
+		{
+			"buffer": 0,
+			"byteLength": 380,
+			"byteOffset": 426640
+		},
+		{
+			"buffer": 0,
+			"byteLength": 387,
+			"byteOffset": 427020
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12170,
+			"byteOffset": 427408
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 439580,
+			"uri": "file_9.bin"
+		}
+	],
+	"extensionsRequired": [
+		"KHR_draco_mesh_compression"
+	],
+	"extensionsUsed": [
+		"KHR_draco_mesh_compression",
+		"KHR_materials_emissive_strength",
+		"KHR_materials_specular"
+	],
+	"images": [
+		{
+			"name": "Walls_Normal",
+			"uri": "Walls_Normal.png"
+		},
+		{
+			"name": "Walls_BaseColor",
+			"uri": "Walls_BaseColor.png"
+		},
+		{
+			"name": "Walls_RoughnessWalls_Metallic",
+			"uri": "Walls_ORM.png"
+		},
+		{
+			"name": "Fireplace_Normal",
+			"uri": "Fireplace_Normal.png"
+		},
+		{
+			"name": "Fireplace_BaseColor",
+			"uri": "Fireplace_BaseColor.png"
+		},
+		{
+			"name": "Fireplace_RoughnessFireplace_Metallic",
+			"uri": "Fireplace_ORM.png"
+		},
+		{
+			"name": "Floor_Normal",
+			"uri": "Floor_Normal.png"
+		},
+		{
+			"name": "Floor_BaseColor",
+			"uri": "Floor_BaseColor.png"
+		},
+		{
+			"name": "Floor_RoughnessFloor_Metallic",
+			"uri": "Floor_ORM.png"
+		},
+		{
+			"name": "Ceiling_Normal",
+			"uri": "Ceiling_Normal.png"
+		},
+		{
+			"name": "Ceiling_BaseColor",
+			"uri": "Ceiling_BaseColor.png"
+		},
+		{
+			"name": "Ceiling_ORM",
+			"uri": "Ceiling_ORM.png"
+		},
+		{
+			"name": "Glass_Normal",
+			"uri": "Glass_Normal.png"
+		},
+		{
+			"name": "Ceiling_Emissive",
+			"uri": "Ceiling_Emissive.png"
+		},
+		{
+			"name": "Room_Spec",
+			"uri": "Room_Spec.png"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": true,
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"extensions": {
+				"KHR_materials_specular": {
+					"specularColorFactor": [
+						1,
+						1,
+						1
+					],
+					"specularColorTexture": {
+						"index": 14,
+						"texCoord": 1
+					},
+					"specularFactor": 1,
+					"specularTexture": {
+						"index": 14,
+						"texCoord": 1
+					}
+				}
+			},
+			"name": "Walls",
+			"normalTexture": {
+				"index": 0,
+				"scale": 0.3,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					1,
+					1,
+					1,
+					1
+				],
+				"baseColorTexture": {
+					"index": 1,
+					"texCoord": 0
+				},
+				"metallicFactor": 1,
+				"metallicRoughnessTexture": {
+					"index": 2,
+					"texCoord": 0
+				},
+				"roughnessFactor": 1
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": true,
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"extras": {
+				"babylonSeparateCullingPass": false
+			},
+			"name": "Fireplace",
+			"normalTexture": {
+				"index": 3,
+				"scale": 0.3,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					1,
+					1,
+					1,
+					1
+				],
+				"baseColorTexture": {
+					"index": 4,
+					"texCoord": 0
+				},
+				"metallicFactor": 1,
+				"metallicRoughnessTexture": {
+					"index": 5,
+					"texCoord": 0
+				},
+				"roughnessFactor": 1
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": true,
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"extensions": {
+				"KHR_materials_specular": {
+					"specularColorFactor": [
+						1,
+						1,
+						1
+					],
+					"specularColorTexture": {
+						"index": 14,
+						"texCoord": 1
+					},
+					"specularFactor": 1,
+					"specularTexture": {
+						"index": 14,
+						"texCoord": 1
+					}
+				}
+			},
+			"extras": {
+				"babylonSeparateCullingPass": false
+			},
+			"name": "Floor",
+			"normalTexture": {
+				"index": 6,
+				"scale": 0.3,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					1,
+					1,
+					1,
+					1
+				],
+				"baseColorTexture": {
+					"index": 7,
+					"texCoord": 0
+				},
+				"metallicFactor": 1,
+				"metallicRoughnessTexture": {
+					"index": 8,
+					"texCoord": 0
+				},
+				"roughnessFactor": 1
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"doubleSided": true,
+			"emissiveFactor": [
+				1,
+				1,
+				1
+			],
+			"emissiveTexture": {
+				"index": 13
+			},
+			"extensions": {
+				"KHR_materials_emissive_strength": {
+					"emissiveStrength": 2
+				},
+				"KHR_materials_specular": {
+					"specularFactor": 0
+				}
+			},
+			"extras": {
+				"babylonSeparateCullingPass": false
+			},
+			"name": "Ceiling",
+			"normalTexture": {
+				"index": 9,
+				"scale": 0.3,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					1,
+					1,
+					1,
+					1
+				],
+				"baseColorTexture": {
+					"index": 10,
+					"texCoord": 0
+				},
+				"metallicFactor": 1,
+				"metallicRoughnessTexture": {
+					"index": 11,
+					"texCoord": 0
+				},
+				"roughnessFactor": 0.9
+			}
+		},
+		{
+			"alphaMode": "BLEND",
+			"doubleSided": true,
+			"emissiveFactor": [
+				0,
+				0,
+				0
+			],
+			"extras": {
+				"babylonSeparateCullingPass": false
+			},
+			"name": "Glass",
+			"normalTexture": {
+				"index": 12,
+				"scale": 0.3,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.5,
+					0.5,
+					0.5,
+					0.0500000119
+				],
+				"metallicFactor": 0,
+				"roughnessFactor": 0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "final_room",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 4,
+						"NORMAL": 3,
+						"POSITION": 1,
+						"TANGENT": 2,
+						"TEXCOORD_0": 5,
+						"TEXCOORD_1": 6
+					},
+					"extensions": {
+						"KHR_draco_mesh_compression": {
+							"attributes": {
+								"COLOR_0": 3,
+								"NORMAL": 2,
+								"POSITION": 0,
+								"TANGENT": 1,
+								"TEXCOORD_0": 4,
+								"TEXCOORD_1": 5
+							},
+							"bufferView": 0
+						}
+					},
+					"indices": 0,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"COLOR_0": 11,
+						"NORMAL": 10,
+						"POSITION": 8,
+						"TANGENT": 9,
+						"TEXCOORD_0": 12,
+						"TEXCOORD_1": 13
+					},
+					"extensions": {
+						"KHR_draco_mesh_compression": {
+							"attributes": {
+								"COLOR_0": 3,
+								"NORMAL": 2,
+								"POSITION": 0,
+								"TANGENT": 1,
+								"TEXCOORD_0": 4,
+								"TEXCOORD_1": 5
+							},
+							"bufferView": 1
+						}
+					},
+					"indices": 7,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"COLOR_0": 18,
+						"NORMAL": 17,
+						"POSITION": 15,
+						"TANGENT": 16,
+						"TEXCOORD_0": 19,
+						"TEXCOORD_1": 20
+					},
+					"extensions": {
+						"KHR_draco_mesh_compression": {
+							"attributes": {
+								"COLOR_0": 3,
+								"NORMAL": 2,
+								"POSITION": 0,
+								"TANGENT": 1,
+								"TEXCOORD_0": 4,
+								"TEXCOORD_1": 5
+							},
+							"bufferView": 2
+						}
+					},
+					"indices": 14,
+					"material": 2,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"COLOR_0": 25,
+						"NORMAL": 24,
+						"POSITION": 22,
+						"TANGENT": 23,
+						"TEXCOORD_0": 26,
+						"TEXCOORD_1": 27
+					},
+					"extensions": {
+						"KHR_draco_mesh_compression": {
+							"attributes": {
+								"COLOR_0": 3,
+								"NORMAL": 2,
+								"POSITION": 0,
+								"TANGENT": 1,
+								"TEXCOORD_0": 4,
+								"TEXCOORD_1": 5
+							},
+							"bufferView": 3
+						}
+					},
+					"indices": 21,
+					"material": 3,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"COLOR_0": 32,
+						"NORMAL": 31,
+						"POSITION": 29,
+						"TANGENT": 30,
+						"TEXCOORD_0": 33,
+						"TEXCOORD_1": 34
+					},
+					"extensions": {
+						"KHR_draco_mesh_compression": {
+							"attributes": {
+								"COLOR_0": 3,
+								"NORMAL": 2,
+								"POSITION": 0,
+								"TANGENT": 1,
+								"TEXCOORD_0": 4,
+								"TEXCOORD_1": 5
+							},
+							"bufferView": 4
+						}
+					},
+					"indices": 28,
+					"material": 4,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "final_room"
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "Walls_Normal.png",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "Walls_BaseColor.png",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "Walls_ORM.png",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "Fireplace_Normal.png",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "Fireplace_BaseColor.png",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "Fireplace_ORM.png",
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"name": "Floor_Normal.png",
+			"sampler": 0,
+			"source": 6
+		},
+		{
+			"name": "Floor_BaseColor.png",
+			"sampler": 0,
+			"source": 7
+		},
+		{
+			"name": "Floor_ORM.png",
+			"sampler": 0,
+			"source": 8
+		},
+		{
+			"name": "Ceiling_Normal.png",
+			"sampler": 0,
+			"source": 9
+		},
+		{
+			"name": "Ceiling_BaseColor.png",
+			"sampler": 0,
+			"source": 10
+		},
+		{
+			"name": "Ceiling_ORM.png",
+			"sampler": 0,
+			"source": 11
+		},
+		{
+			"name": "Glass_Normal.png",
+			"sampler": 0,
+			"source": 12
+		},
+		{
+			"name": "Ceiling_Emissive",
+			"source": 13
+		},
+		{
+			"name": "Room_Spec",
+			"source": 14
+		}
+	]
+}

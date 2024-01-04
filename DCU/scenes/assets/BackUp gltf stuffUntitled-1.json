@@ -1,0 +1,121 @@
+ "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Walls_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Walls_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Walls_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "Fireplace_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "Fireplace_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "Fireplace_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "Floor_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "Floor_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 8,
+      "name": "Floor_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 9,
+      "name": "Ceiling_Normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 10,
+      "name": "Ceiling_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 11,
+      "name": "Ceiling_ORM.png"
+    },
+    {
+      "sampler": 0,
+      "source": 12,
+      "name": "Glass_Normal.png"
+    }
+  ],
+  "images": [
+    {
+      "name": "Walls_Normal",
+      "uri": "Walls_Normal.png"
+    },
+    {
+      "name": "Walls_BaseColor",
+      "uri": "Walls_BaseColor.png"
+    },
+    {
+      "name": "Walls_RoughnessWalls_Metallic",
+      "uri": "Walls_ORM.png"
+    },
+    {
+      "name": "Fireplace_Normal",
+      "uri": "Fireplace_Normal.png"
+    },
+    {
+      "name": "Fireplace_BaseColor",
+      "uri": "Fireplace_BaseColor.png"
+    },
+    {
+      "name": "Fireplace_RoughnessFireplace_Metallic",
+      "uri": "Fireplace_ORM.png"
+    },
+    {
+      "name": "Floor_Normal",
+      "uri": "Floor_Normal.png"
+    },
+    {
+      "name": "Floor_BaseColor",
+      "uri": "Floor_BaseColor.png"
+    },
+    {
+      "name": "Floor_RoughnessFloor_Metallic",
+      "uri": "Floor_ORM.png"
+    },
+    {
+      "name": "Ceiling_Normal",
+      "uri": "Ceiling_Normal.png"
+    },
+    {
+      "name": "Ceiling_BaseColor",
+      "uri": "Ceiling_BaseColor.png"
+    },
+    {
+      "name": "Ceiling_ORM",
+      "uri": "Ceiling_ORM.png"
+    },
+    {
+      "name": "Glass_Normal",
+      "uri": "Glass_Normal.png"
+    }
+  ],

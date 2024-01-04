@@ -1,0 +1,532 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "name": "RoomBake_NoLights"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC3",
+      "max": [
+        5.3770203590393066,
+        5.8112144470214844,
+        2.0247499942779541
+      ],
+      "min": [
+        -5.3770203590393066,
+        -5.8135986328125,
+        -2.033646821975708
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC2",
+      "max": [
+        4.6449704170227051,
+        6.0641093254089355
+      ],
+      "min": [
+        -3.6449708938598633,
+        -5.0641078948974609
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC2",
+      "max": [
+        0.9983220100402832,
+        0.99832195043563843
+      ],
+      "min": [
+        0.0016779899597167969,
+        0.0017285346984863281
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 22448,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5123,
+      "count": 50007,
+      "type": "SCALAR",
+      "max": [
+        21975.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 948,
+      "type": "SCALAR",
+      "max": [
+        22439.0
+      ],
+      "min": [
+        21976.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        22443.0
+      ],
+      "min": [
+        22440.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [
+        22447.0
+      ],
+      "min": [
+        22444.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "RoomBake_NoLights.bin",
+      "byteLength": 1718192
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 269376,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 269376,
+      "byteLength": 269376,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 538752,
+      "byteLength": 359168,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 897920,
+      "byteLength": 179584,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1077504,
+      "byteLength": 179584,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1257088,
+      "byteLength": 359168,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1616256,
+      "byteLength": 100016,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1716272,
+      "byteLength": 1896,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1718168,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1718180,
+      "byteLength": 12,
+      "target": 34963
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.3333333730697632,
+        "yfov": 0.86917400360107422,
+        "zfar": 1000.1340942382813,
+        "znear": 0.30000001192092896
+      },
+      "type": "perspective",
+      "name": "Main Camera"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Corner_2_noVertexPaint_Walls_AlbedoTransparency.jpg",
+      "name": "Corner_2_noVertexPaint_Walls_AlbedoTransparency"
+    },
+    {
+      "uri": "Corner_2_noVertexPaint_Walls_MetallicSmoothness.jpg",
+      "name": "Corner_2_noVertexPaint_Walls_MetallicSmoothness"
+    },
+    {
+      "uri": "Fireplace_low_Fireplace_AlbedoTransparency.jpg",
+      "name": "Fireplace_low_Fireplace_AlbedoTransparency"
+    },
+    {
+      "uri": "Fireplace_low_Fireplace_MetallicSmoothness.jpg",
+      "name": "Fireplace_low_Fireplace_MetallicSmoothness"
+    },
+    {
+      "uri": "HB%20LowRes_HB_tile_AlbedoTransparency.jpg",
+      "name": "HB LowRes_HB_tile_AlbedoTransparency"
+    },
+    {
+      "uri": "HB%20LowRes_HB_tile_MetallicSmoothness.jpg",
+      "name": "HB LowRes_HB_tile_MetallicSmoothness"
+    },
+    {
+      "uri": "tile_ceiling_tile_AlbedoTransparency.jpg",
+      "name": "tile_ceiling_tile_AlbedoTransparency"
+    },
+    {
+      "uri": "tile_ceiling_tile_MetallicSmoothness.jpg",
+      "name": "tile_ceiling_tile_MetallicSmoothness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.905749261,
+          0.905749261,
+          0.905749261,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.527999997138977,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Walls"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Fireplace"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.905749261,
+          0.905749261,
+          0.905749261,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.10899999737739563,
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Floor"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 7,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        }
+      },
+      "alphaMode": "MASK",
+      "name": "Ceiling"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 6,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 7,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 8,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "COLOR_0": 5
+          },
+          "indices": 9,
+          "material": 3
+        }
+      ],
+      "name": "Final Room"
+    }
+  ],
+  "nodes": [
+    {
+      "camera": 0,
+      "rotation": [
+        -0.000418963318,
+        0.99479717,
+        0.004094443,
+        -0.101792462
+      ],
+      "translation": [
+        0.0,
+        1.59,
+        -1.97
+      ],
+      "name": "Main Camera"
+    },
+    {
+      "translation": [
+        0.0,
+        0.47,
+        0.0
+      ],
+      "name": "Global Volume"
+    },
+    {
+      "name": "!ftraceLightmaps"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "name": "Final_Room"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        0.0603527837,
+        2.018907,
+        0.123768307
+      ],
+      "name": "Final Room"
+    },
+    {
+      "translation": [
+        0.0,
+        2.11,
+        0.04
+      ],
+      "name": "Reflection Probe"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Corner_2_noVertexPaint_Walls_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Corner_2_noVertexPaint_Walls_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Fireplace_low_Fireplace_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "Fireplace_low_Fireplace_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "HB LowRes_HB_tile_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "HB LowRes_HB_tile_MetallicSmoothness"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "tile_ceiling_tile_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "tile_ceiling_tile_MetallicSmoothness"
+    }
+  ]
+}
