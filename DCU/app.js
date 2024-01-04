@@ -96,7 +96,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 
-        var lightmapTexture = new BABYLON.Texture("scenes/assets/lightmapRGBD.png", scene);
+        
 
         let excludedMeshesFromLightmap = ["LiquidObject","Light Blocker","CurveObject","final_room_primitive4","dragonLR"];
 
@@ -117,7 +117,7 @@ window.addEventListener('DOMContentLoaded', function () {
                     liquidMat.microSurface = 0.6; // F0 factor (also known as the microSurface property in Babylon.js)
                     liquidMat.metallicReflectanceColor = new BABYLON.Color3(1, 0, 0); // Metallic reflectance color to red
                     
-                    var liquidthicknessTexture = new BABYLON.Texture("scenes/assets/liquid_object_thickness.png", scene);
+                    var liquidthicknessTexture = new BABYLON.Texture("scenes/assets/liquid_thickness.png", scene);
                     liquidthicknessTexture.vScale = -1;
                     liquidMat.subSurface.thicknessTexture = liquidthicknessTexture;
                     liquidMat.subSurface.minimumThickness = 0.5;
@@ -197,6 +197,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 return; // Skip these meshes from Lightmap
             }
             if (mesh.material) {
+                var lightmapTexture = new BABYLON.Texture("scenes/assets/lightmap.png", scene);
                 mesh.material.lightmapTexture = lightmapTexture;
                 mesh.material.lightmapTexture.isRGBD = true;
                 mesh.material.lightmapTexture.gammaSpace = false;
