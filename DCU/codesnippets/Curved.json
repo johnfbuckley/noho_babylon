@@ -2,14 +2,14 @@
     "cameras": [
         {
             "rotation": [
-                -0.09802812149399637,
-                6.867015700115807,
+                0.11802399707480463,
+                -0.07591004295009088,
                 0
             ],
             "position": [
-                -2.220397297242867,
-                1.7489309261819914,
-                -1.1447060431321778
+                -0.04251616730279927,
+                1.818125695967816,
+                -3.856132972523871
             ],
             "__state": {
                 "id": "camera1"
@@ -18,34 +18,21 @@
     ],
     "materials": [
         {
-            "albedo": [
-                0.03847274632019464,
-                0.3837746464879752,
-                0.5295232224172772
-            ],
-            "alpha": 1,
+            "metallic": 0.32,
+            "roughness": 0.73,
             "plugins": {
                 "PBRIridescenceConfiguration": {
-                    "intensity": 1,
-                    "minimumThickness": 110,
-                    "maximumThickness": 320,
-                    "indexOfRefraction": 1.61
+                    "intensity": 0.8,
+                    "indexOfRefraction": 2.22
                 },
                 "PBRSubSurfaceConfiguration": {
-                    "refractionIntensity": 0.57,
-                    "translucencyIntensity": 0.53,
-                    "indexOfRefraction": 1.35,
-                    "_volumeIndexOfRefraction": 1.21,
-                    "linkRefractionWithTransparency": true,
-                    "minimumThickness": 1.5,
-                    "maximumThickness": 6.1,
-                    "tintColor": [
-                        0.7893137424155858,
-                        0.004116177093282753,
-                        0.004116177093282753
-                    ],
-                    "tintColorAtDistance": 3.5,
-                    "useGltfStyleTextures": false
+                    "refractionIntensity": 0.69,
+                    "useAlbedoToTintRefraction": false,
+                    "indexOfRefraction": 1.95,
+                    "_volumeIndexOfRefraction": 2.07,
+                    "minimumThickness": 1.1,
+                    "maximumThickness": 6.8,
+                    "tintColorAtDistance": 0.7
                 }
             },
             "__state": {
@@ -98,7 +85,7 @@
             "twoSidedLighting": false,
             "applyDecalMapAfterDetailMap": false,
             "id": "default material",
-            "uniqueId": 91,
+            "uniqueId": 99,
             "name": "default material",
             "checkReadyOnEveryCall": false,
             "checkReadyOnlyOnce": false,
@@ -151,9 +138,9 @@
         {
             "rotationQuaternion": [
                 0,
-                0.9936830059577957,
+                0.5288718311735884,
                 0,
-                0.11222357462498411
+                -0.8487016957357176
             ],
             "__state": {
                 "id": "Circle 01"
@@ -162,9 +149,9 @@
         {
             "rotationQuaternion": [
                 0,
-                0.9923038319190292,
+                -0.721053374114097,
                 0,
-                -0.1238269881300062
+                -0.6928795454355554
             ],
             "__state": {
                 "id": "Circle 02"
@@ -173,7 +160,7 @@
         {
             "rotationQuaternion": [
                 0,
-                -0.30070603743194924,
+                -0.30070602893829346,
                 0,
                 -0.9537169337272644
             ],
@@ -185,18 +172,12 @@
             "position": [
                 0,
                 0.1623559594154358,
-                1.0910037073581475e-7
-            ],
-            "rotationQuaternion": [
-                0,
-                0.5000002980232239,
-                0,
-                0.8660252690315247
+                0
             ],
             "scaling": [
+                0.9999999961252964,
                 1,
-                0.9999999147653335,
-                1
+                0.9999999961252964
             ],
             "__state": {
                 "id": "Circle 06"

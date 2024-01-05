@@ -95,9 +95,6 @@ window.addEventListener('DOMContentLoaded', function () {
         });
 
 
-
-        
-
         let excludedMeshesFromLightmap = ["LiquidObject","Light Blocker","CurveObject","final_room_primitive4","dragonLR"];
 
         // Load the Room meshes
@@ -143,8 +140,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
                 if (mesh.name === 'dragonLR') {
 
-                console.log('dragonLR', mesh);
-                console.log('DragonGlass', dMat);
+                // console.log('dragonLR', mesh);
+                // console.log('DragonGlass', dMat);
                 var dMat = scene.getMaterialByName("DragonGlass");
                     dMat.metallic = 0.08;
                     dMat.roughness = 0.42;
@@ -179,17 +176,34 @@ window.addEventListener('DOMContentLoaded', function () {
                     mesh.isVisible = false;
                 }
 
-                if (mesh.name === 'CurvedObject') {
-                    var curveMat = scene.getMaterialByName("CurveObject");
+                if (mesh.name === 'CurveObject') {
+
+
+                    var curveMat = scene.getMaterialByName("Curve_Object");
                     curveMat.albedoColor = BABYLON.Color3.FromHexString("#3AA5BF").toLinearSpace();
                     curveMat.alpha = 0.0;
                     curveMat.metallic = 0.18;
                     curveMat.roughness = 0.42;
                     curveMat.indexOfRefraction = 1.37;
                     curveMat.metallicF0Factor= 1;
+                    curveMat.useAlphaFromAlbedoTexture = false;
+
                     curveMat.subSurface.tintColor = BABYLON.Color3.FromHexString("#B1EDED").toLinearSpace();
                     curveMat.subSurface.refractionIntensity = 1;
                     curveMat.subSurface.indexOfRefraction = 1.61;
+                    
+            
+                    curveMat.subSurface.isRefractionEnabled = true; // Enable refraction
+                    curveMat.subSurface.linkRefractionWithTransparency = true; // Link refraction with transparency
+                    curveMat.subSurface.tintColor = BABYLON.Color3.FromHexString("#B1EDED").toLinearSpace(); // Set the tint color
+                    curveMat.subSurface.volumeIndexOfRefraction = 1.8; // Set the volume index of refraction
+                    curveMat.subSurface.useIrradianceInFragment = true; // Enable iridescence
+                    curveMat.subSurface.irradianceIntensity = 1.0; // Control the intensity of the iridescence effect
+                    curveMat.subSurface.thickness = 0.5; // Control the thickness of the iridescence effect
+                    curveMat.subSurface.minimumThickness = 0.5; // Control the minimum thickness of the iridescence effect
+                    mesh.material = curveMat;
+                    console.log('CurvedObject', mesh);
+                    console.log('Curve_Object', curveMat);
         
                 }
            
@@ -225,6 +239,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 pbrFloorMat.reflectivityTexture = floorMat.specularTexture;
                 pbrFloorMat.microSurface = floorMat.specularPower;
                 pbrFloorMat.useMicroSurfaceFromReflectivityMapAlpha = true;
+                pbrFloorMat.reflectivityTexture =new BABYLON.Texture("scenes/assets/roomspec.png", scene);
+                pbrFloorMat.microSurfaceTexture = new BABYLON.Texture("scenes/assets/roomspec.png", scene);
             
                 // Enable BRDF
                 pbrFloorMat.useEnergyConservation = true;
@@ -237,7 +253,7 @@ window.addEventListener('DOMContentLoaded', function () {
             
                 // Replace the standard material with the PBR material
                 floorMat = pbrFloorMat;
-                pbrFloorMat.microSurfaceTexture = new BABYLON.Texture("scenes/assets/roomspec.png", scene);
+               
             }
             
             // Fireplace material
@@ -303,7 +319,7 @@ window.addEventListener('DOMContentLoaded', function () {
             // chromaticAberration.centerPosition = new BABYLON.Vector2(0.5, 0.5);
             // chromaticAberration.direction = new BABYLON.Vector2(0.71, 0.71);
 
-            // // Add vignetting
+            // Add vignetting
             // var vignette = new BABYLON.VignettePostProcess('vignette', new BABYLON.Vector2(1,1), scene.activeCamera);
             // vignette.color = new BABYLON.Color4(0, 0, 0, 0);
             // vignette.cameraFov = 0.6;
@@ -342,7 +358,7 @@ window.addEventListener('DOMContentLoaded', function () {
     };
 
     var scene = createScene();
-    // scene.debugLayer.show();
+    scene.debugLayer.show();
 
     engine.runRenderLoop(function () {
         scene.render();
