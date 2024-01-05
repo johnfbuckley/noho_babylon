@@ -1258,17 +1258,11 @@
 				"KHR_materials_iridescence": {
 					"iridescenceFactor": 0.5,
 					"iridescenceIor": 2.4,
-					"iridescenceTexture": {
-						"index": 5
-					},
 					"iridescenceThicknessMaximum": 400,
 					"iridescenceThicknessMinimum": 100
 				},
 				"KHR_materials_transmission": {
-					"transmissionFactor": 1,
-					"transmissionTexture": {
-						"index": 5
-					}
+					"transmissionFactor": 1
 				}
 			},
 			"extras": {
@@ -1280,7 +1274,7 @@
 					1,
 					1,
 					1,
-					0.5
+					1
 				],
 				"baseColorTexture": {
 					"index": 3
